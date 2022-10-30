@@ -1,0 +1,52 @@
+@import '../../style/variables.scss';
+
+.wrapper{
+    width: 425px;
+    min-height: 127px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+}
+.form{
+    margin-top: 15px;
+    padding-left: 25px;
+    &__link{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__header{
+        padding-top: 25px;
+        padding-left: 25px;
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+    }
+    &__button{
+        margin-left: 34px;
+    }
+    &__input{
+        height: 38px;
+        width: 250px;
+        padding-left: 10px;
+    }
+    &__msg{
+        margin-top: 25px;
+        padding-bottom: 25px;
+        display: inline-block;
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    &__error{
+        color: #9F0013;
+    }
+    &__toPage{
+        margin-top: 15px;
+        padding-bottom: 25px;
+    }
+}
