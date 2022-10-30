@@ -1,4 +1,4 @@
-import './singleComicPage.scss';
+import './singlePage.scss';
 import { useParams, Link } from 'react-router-dom';
 import ErrorMessage from '../../errorMessage/ErrorMessage'
 import Spinner from '../../spinner/Spinner'

@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { MainPage } from "../pages/MainPage";
 import { ComicsPage } from "../pages/ComicsPage";
 import ErrorMessage from "../errorMessage/ErrorMessage";
-import SingleComicPage from "../pages/SingleComicPage/SingleComicPage"
+import SingleComicPage from "../pages/SinglePage/SingleComicPage"
 import { useState } from "react";
-import SingleCharPage from "../pages/SingleComicPage/SingleCharPage";
+import SingleCharPage from "../pages/SinglePage/SingleCharPage";
 import {Helmet} from 'react-helmet'
 
 const App = () => {
